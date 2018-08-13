@@ -258,6 +258,7 @@ export class AppComponent implements OnInit {
 <a name="figure5" />
 
 ```ts
+// @app/hero/hero.effects.ts
 ...
 constructor(private actions$: Actions, private apollo: Apollo) { }
 
