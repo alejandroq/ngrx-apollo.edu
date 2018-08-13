@@ -82,7 +82,7 @@ export class AppModule {
 
 7. Let's define our models / gql fragments for `Review` and `Hero`
 
-  1. `Hero`:
+   1. `Hero`:
 
 ```ts
 // `@app/hero/hero.model.ts`
@@ -100,7 +100,7 @@ fragment CharacterFragment on Character {
 }
 ```
 
-  2. `Review`:
+   2. `Review`:
 
 ```ts
 // `@app/review/review.model.ts`
@@ -225,10 +225,10 @@ export class AppModule {
 ```
 
 9.  Let's dispatch an Action to load the heroes in the `app.component.ts`:
-  1. Determine the Query via `http://localhost:8080` (ala [#figure4](#figure4))
-  2. Mutate `app.component.ts` as follows: [#figure3](#figure3):
-  3. The Redux Devtools will show us that the Action to `LoadHeros` will dispatch upon `app.component.ts` init.
-  4. Describe to RxJS the Effect to listen for the appropriate `ofType` and lazingly dispatch a query to the backend GraphQL service: [#figure5](#figure5).
+   1. Determine the Query via `http://localhost:8080` (ala [#figure4](#figure4))
+   2. Mutate `app.component.ts` as follows: [#figure3](#figure3):
+   3. The Redux Devtools will show us that the Action to `LoadHeros` will dispatch upon `app.component.ts` init.
+   4. Describe to RxJS the Effect to listen for the appropriate `ofType` and lazingly dispatch a query to the backend GraphQL service: [#figure5](#figure5).
 
 <a name="#figure3" />
 
