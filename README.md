@@ -21,7 +21,7 @@ Quickly demonstrate (and provide the code/steps to) combining an NGRX Store with
 We will utilize a classic Star Wars GraphQL server. To start:
 
 1. Run the executable for your OS in the `bin`.
-2. Navigate to `[http://localhost:8080](http://localhost:8080)`
+2. Navigate to [http://localhost:8080](http://localhost:8080)
 3. Feel free to run queries to get to know the API
 
 Let's create a simple app that demonstrates an NGRX Effect for querying and running mutations in the GraphQL server. We will query for the heroes from the Star Wars movies and create reviews for the movies via mutations.
