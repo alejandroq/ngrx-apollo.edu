@@ -226,13 +226,6 @@ export class AppModule {
 
 9.  Let's dispatch an Action to load the heroes in the `app.component.ts`:
 
-  1. Determine the Query via `http://localhost:8080`
-
-  ![graphql localhost query](images/gql-query-example-1.png)
-
-  2. Place our query into `@app/hero` as `get-heros.gql`
-  3. Mutate `app.component.ts` as follows:
-
 ```ts
 // `app.component.ts`
 import { Component, OnInit } from '@angular/core';
@@ -252,6 +245,12 @@ export class AppComponent implements OnInit {
 }   
 ```
 
+  1. Determine the Query via `http://localhost:8080`
+
+  ![graphql localhost query](images/gql-query-example-1.png)
+
+  2. Place our query into `@app/hero` as `get-heros.gql`
+  3. Mutate `app.component.ts` as follows:
   4. The Redux Devtools will show us that the Action to `LoadHeros` will dispatch upon `app.component.ts` init.
   5. Have the Effect listen for the type and dispatch a query to the backend GraphQL service:
 
