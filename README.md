@@ -2,7 +2,7 @@
 
 **By Alejandro Quesada**
 
-*If you discover any bugs or anything left to be desired - please leave an Issue or PR with the requested changes! Thank you. I hope to have caught everything, but if in your attempts to combine these two libraries, there is issue that this repo neglects, let me know and I can make the proper adjustments.*
+*If you discover any bugs or anything left to be desired - please leave an Issue or PR with the requested changes! I hope to have caught/considered everything, but if in your attempts to combine these two libraries, there is an issue that this repo neglects, let me know and I can make the proper adjustments. Thanks!*
 
 ## Requirements
 
