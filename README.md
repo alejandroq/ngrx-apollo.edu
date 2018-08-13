@@ -76,7 +76,7 @@ export class AppModule {
   }
 }
 ```
-
+<a name="figure2"/>
 ![state visualized in dev tools #figure2](images/state-1.png)
 
 7. Let's define our models / gql fragments for `Review` and `Hero`
