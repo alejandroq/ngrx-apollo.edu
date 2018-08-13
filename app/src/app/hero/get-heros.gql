@@ -1,0 +1,16 @@
+fragment CharacterFragment on Character {
+  id
+  name
+}
+
+query GetHeros {
+  newhope: hero(episode: NEWHOPE){
+  	...CharacterFragment 
+  }
+  empire: hero(episode: EMPIRE){
+  	...CharacterFragment 
+  }
+  jedi: hero(episode:JEDI){
+    ...CharacterFragment 
+  }
+}
