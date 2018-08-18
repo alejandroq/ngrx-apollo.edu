@@ -26,10 +26,6 @@ We will utilize a classic Star Wars GraphQL server. To start:
 
 Let's create a simple app that demonstrates an NGRX Effect for querying and running mutations in the GraphQL server. We will query for the heroes from the Star Wars movies and create reviews for the movies via mutations.
 
-## Known Bugs or TODOS
-
-- [ ] Fix CORS issue between `./bin` GraphQL server executables and the NG app (current approach in `feature-containerization` branch - if other ideas are suggested - please submit a GitHub PR or Issue).
-
 ## Getting Started
 
 1. Add dependencies: `yarn add @ngrx/schematics`
@@ -449,6 +445,8 @@ Update the following section in `angular.json`
 ```
 
 You will now access your Angular site through `https://localhost:4200` by default.
+
+- CORS issue? Dockerize a NGINX Proxy, functional example here: [https://github.com/markoshust/Setup-an-Nginx-Proxy-for-a-Node.js-App-with-Docker/tree/master](https://github.com/markoshust/Setup-an-Nginx-Proxy-for-a-Node.js-App-with-Docker/tree/master)
 
 ## Extra Credit
 
